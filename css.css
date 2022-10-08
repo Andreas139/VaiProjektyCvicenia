@@ -1,0 +1,54 @@
+body {
+    background-image: url("https://cdn.alza.cz/Foto/ImgGalery/Image/Article/_MG_0033.jpg");
+    background-size: cover ;
+    height: 100vh;
+    width: 100vw ;
+    margin: 0;
+
+}
+
+.slnko {
+    background-image: url("https://www.martankovia.sk/getattachment/4b6061da-fe69-4628-8a86-f1c8360ec392/Slunce.aspx?maxsidesize=1920");
+    background-size: cover ;
+    height: 200px;
+    width: 200px ;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.vtak {
+    background-image: url("https://cdn.sci.news/images/enlarge9/image_10508_1e-Meratus-Jungle-Flycatcher.jpg");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+
+}
+
+.hp {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.dp{
+
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.lp{
+
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.otoc{
+    transform: scaleX(-1);
+
+}
