@@ -44,5 +44,8 @@ tr:hover td:nth-child(6){
     background-color: lightskyblue;
 }
 
-
+td:nth-of-type(7),
+th:nth-of-type(7){
+    display: none;
+}
 
